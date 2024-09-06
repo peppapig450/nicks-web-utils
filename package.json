@@ -1,24 +1,43 @@
 {
-  "name": "utilities",
+  "name": "@nickdidthat2/web-helpers",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "javascript",
+    "js",
+    "typescript",
+    "ts",
+    "utility",
+    "functions",
+    "utilities",
+    "helpers",
+    "helper functions"
+  ],
+  "author": "Nick Brady <normalcitizen24@proton.me> (https://nickbrady.dev)",
   "license": "ISC",
-  "description": "",
+  "description": "Collection of small utility functions for TypeScript/JavaScript Development",
+  "repository": "git://github.com/peppapig450/nicks-web-utils",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^22.5.4",
     "@typescript-eslint/eslint-plugin": "^8.4.0",
     "@typescript-eslint/parser": "^8.4.0",
     "eslint": "^9.9.1",
     "prettier": "^3.3.3",
+    "rollup-plugin-dts": "^6.1.1",
     "typescript": "^5.5.4"
   }
 }
