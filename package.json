@@ -23,7 +23,7 @@
     "helper functions"
   ],
   "author": "Nick Brady <normalcitizen24@proton.me> (https://nickbrady.dev)",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "description": "Collection of small utility functions for TypeScript/JavaScript Development",
   "repository": "git://github.com/peppapig450/nicks-web-utils",
   "devDependencies": {
